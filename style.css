@@ -20,8 +20,17 @@
     align-items: center;
     justify-content: space-around;
     color: white;
+    transition: 0,4s ease-in-out;
+    align-items: center;
 
    
+}
+
+
+
+
+.navbar a:hover{
+color: blue;
 }
 
 .header h2,h1{
@@ -110,7 +119,20 @@ margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(2,2fr);
   margin-right: 30%;
-  gap: 3%;
+  gap: 20%;
   margin-top: 2%;
+  width: 40%;
+  height: 40vh;
  }
-
+.car{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+  gap: 25%;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.CAR{
+  margin-left: 17%;
+  margin-top: 20%;
+}
